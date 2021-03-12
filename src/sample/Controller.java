@@ -1,7 +1,12 @@
 package sample;
 
+import javafx.event.ActionEvent;
+import javafx.scene.control.Button;
+
 public class Controller {
-    public void test(){
-        System.out.println("dziala");
+
+    public Button btnMain;
+
+    public void onBtnAction(ActionEvent actionEvent) {
     }
 }
